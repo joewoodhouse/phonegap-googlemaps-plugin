@@ -134,8 +134,8 @@
             <feature name="Polygon">
                 <param name="ios-package" value="Polygon" />
             </feature>
-            <feature name="Polyline">
-                <param name="ios-package" value="Polyline" />
+            <feature name="PolylineGM">
+                <param name="ios-package" value="PolylineGM" />
             </feature>
             <feature name="TileOverlay">
                 <param name="ios-package" value="TileOverlay" />
