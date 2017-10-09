@@ -8,7 +8,7 @@
 
 #import "Polyline.h"
 
-@implementation Polyline
+@implementation PolylineGM
 
 -(void)setGoogleMapsViewController:(GoogleMapsViewController *)viewCtrl
 {
