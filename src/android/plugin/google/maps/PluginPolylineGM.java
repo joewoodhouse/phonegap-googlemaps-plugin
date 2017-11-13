@@ -15,7 +15,7 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 
-public class PluginPolyline extends MyPlugin implements MyPluginInterface  {
+public class PluginPolylineGM extends MyPlugin implements MyPluginInterface  {
   /**
    * Create polyline
    * @param args
