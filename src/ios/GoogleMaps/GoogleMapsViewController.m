@@ -138,6 +138,9 @@ NSDictionary *initOptions;
     //  marginBottom = 20;
     //}
     CGRect mapRect = CGRectMake(0, 0, pluginRect.size.width, pluginRect.size.height  - marginBottom);
+    if([PluginUtil isIOS8_OR_OVER] == true){
+        mapRect.origin.y = -20;
+    }
     //NSLog(@"mapRect=%f,%f - %f,%f", mapRect.origin.x, mapRect.origin.y, mapRect.size.width, mapRect.size.height);
     //NSLog(@"mapRect=%@", camera);
     self.map = [GMSMapView mapWithFrame:mapRect camera:camera];
